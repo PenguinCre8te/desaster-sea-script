@@ -63,7 +63,7 @@ local function teleportAndActivatePrompt()
 
             -- Rejoin the game
             teleportService:Teleport(game.PlaceId, player)
-			queue_on_tp('loadstring(game:HttpGet("https://raw.githubusercontent.com/PenguinCre8te/Auto-bond-dead-rails/refs/heads/main/script.lua"))()') -- For examlpe 'loadstring(game:HttpGet("https://raw.githubusercontent.com/PenguinCre8te/Auto-bond-dead-rails/refs/heads/main/script.lua"))()'
+			queue_on_tp('loadstring(game:HttpGet("https://raw.githubusercontent.com/PenguinCre8te/desaster-sea-script/refs/heads/main/script.lua"))()') -- For examlpe 'loadstring(game:HttpGet("https://raw.githubusercontent.com/PenguinCre8te/Auto-bond-dead-rails/refs/heads/main/script.lua"))()'
         end
     end
 end
